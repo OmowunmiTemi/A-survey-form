@@ -1,0 +1,122 @@
+body{
+    background: #ff80c1;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  #description{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .container {
+  width:400px;
+  margin:0 auto;
+  border: 2px solid pink;
+  padding: 30px 40px;
+  background:#cc0099;
+  }
+  .form-group{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  /*
+  input[type=text]{
+    border: 2px solid purple;
+    border-radius: 10px;
+    width:100%; 
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    font-size: 15px;
+  }
+  input[type=email]{
+    border: 2px solid purple;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  input[type=contact]{
+    border: 2px solid purple;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  input[type=number]{
+    border: 2px solid purple;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  input[type=text]:focus {
+    background-color: #ffccff;
+  }
+  input[type=email]:focus {
+    background-color: #ffccff;
+  }
+  input[type=contact]:focus {
+    background-color: #ffccff;
+  }
+  input[type=number]:focus {
+    background-color: #ffccff;
+  }
+  */
+  input[type=text],
+  input[type=email],
+  input[type=contact],
+  input[type=number] {
+     border: 2px solid purple;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px; 
+  }
+  
+  #dropdown{
+    border: 2px solid purple;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: #ffccff;
+    font-size: 15px;
+    resize: none;
+  }
+  button{
+    background: pink;
+    border-radius: 10px;
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  button:Hover{
+    background: #e600ac;
+  }
+  
+  

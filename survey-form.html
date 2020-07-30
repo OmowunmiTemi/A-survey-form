@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Purposeful Woman Africa Survey Form</h1>
+        <P id="description"><i>Thank you for taking the time to             help us improve the platform</i></p>
+     </header>
+     
+   <div class="container">
+     <form action="/action_page.php" id="survey-form">
+                                                     
+     <div class="form-group">                                       
+     <label id="Name-label" for="name">Name:</label><br>
+     <input type="text" id="name" placeholder="Enter Name"required>
+   </div><br>
+                                                          
+   <div class="form-group">                                              <label id="email-label for="email">Email:</label><br> 
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email"required>
+   </div><br>
+   
+   <div class="form-group">     
+      <label id="contact-label" for="number">Contact:</label><br>
+      <input type="contact" name="contact" id="contact" class="form-control" placeholder="Contact Number" required>
+   </div><br>
+   
+   <div class="form-group">     
+      <label id="number-label" for="number">Age:
+        <span class="clue">(Optional)</span></label><br>
+      <input type="number" name="age" min="18" max="99" id="number" class="form-control" placeholder="Age">
+   </div>
+   
+   <div class="form-group">
+     <p>Which option best describes your current role?</p> 
+     <select id="dropdown" name="role" class="form-control" required>
+       <option value="">Select current role</option>
+       <option value="student">Student</option>
+       <option value="Job">Full time Job</option>
+       <option value="Entrepreneur">Entrepreneur</option>
+       <option value="Unemployed">Unemployed</option>
+       <option value="Others">Others</option>
+     </select>
+     </div>
+     
+   <div class="form-group">
+     <p>Would you recommend Purposeful Woman Africa to a friend?</p>
+     
+   <label>
+   <input name="user-recommend" value="Definitely" type="radio" class="input-radio">Definitely</label><br>
+   <label>
+   <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label><br>
+   <label>
+   <input name="user-recommend" value="Notsure" type="radio" class="input-radio">Not sure</label>
+   </div>
+   <div class="form-group">
+     <p>Which program would you suggest Purposeful Woman Africa do          next?</p>
+     
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">School Outreach</label><br>
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Prison Outreach</label><br>
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Orphanage Outreach</label><br>
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Hospital Outreach</label><br>
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Elderly Home Outreach</label><br>
+   <label>
+   <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Skills Acquisition</label>
+   </div>
+   <div class="form-group">
+   <p>Please give your comments and suggestions</p>
+   <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea></div>
+   <div class="form-group">
+   <button type="submit" id="submit" class="submit-button">
+   Submit</button>
+   </div>
+     
+   </form> 
+   </div> 
+</body>
+</html>
